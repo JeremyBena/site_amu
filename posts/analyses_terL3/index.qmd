@@ -1,13 +1,12 @@
 ---
 title: "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? -- pour TER L3, HPS6U26, AMU"
-author: "Jérémy Béna"
-date: last-modified
+author: ""
+date: "27 mars 2024"
 format: 
   html:
     toc: true
     toc-title: "Contenus du document"
     published-title: "Mis en ligne le :"
-    author-title: "Créé par :"
     code-fold: true
     code-summary: "Cliquer ici pour voir le code R"
     code-tools: true

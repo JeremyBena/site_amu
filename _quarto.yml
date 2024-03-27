@@ -5,13 +5,14 @@ website:
   title: "Page AMU, Jérémy Béna : Ressources de cours"
   
   navbar:
-    right:
+    left:
       - coursA.qmd
       - coursB.qmd
       - recherche.qmd
+    right:
       - about.qmd
       - icon: github
-         # href: https://github.com/JeremyBena/site_amu
+        href: https://github.com/JeremyBena/site_amu
       # - icon: twitter
       #   href: https://twitter.com
 format:
