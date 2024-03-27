@@ -1,0 +1,16 @@
+---
+title: "Billet #2"
+date: today
+author: ""
+categories: [non classé]
+---
+
+# section 1
+
+## section 2
+
+### section 3
+
+##### Section 4 etc.
+
+Ce billet est vide. A venir.

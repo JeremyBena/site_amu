@@ -1,0 +1,8 @@
+---
+title: "Billet #1 -- TEST"
+date: today
+author: ""
+categories: [effet; psychologie expérimentale]
+---
+
+TEST
