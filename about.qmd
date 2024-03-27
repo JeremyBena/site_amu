@@ -15,4 +15,4 @@ about:
     #   href: https://github.com
 ---
 
-Pour toute requête concernant les contenus de ce site, merci de me contacter <a href="mailto:jeremy.bena@univ-amu.fr">contacter</a> (lien cliquable).
+Pour toute requête concernant les contenus de ce site, merci de me <a href="mailto:jeremy.bena@univ-amu.fr">contacter</a> (lien cliquable).
