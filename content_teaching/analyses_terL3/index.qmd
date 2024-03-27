@@ -1,0 +1,245 @@
+---
+title: "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? -- pour TER L3, HPS6U26, AMU"
+author: ""
+date: "27 mars 2024"
+format: 
+  html:
+    toc: true
+    toc-title: "Contenus du document"
+    published-title: "Mis en ligne le :"
+    code-fold: true
+    code-summary: "Cliquer ici pour voir le code R"
+    code-tools: true
+css: style.css
+embed-resources: true
+execute: 
+    warning: false
+editor: source
+---
+
+## Ce document
+
+Ce document présente les analyses et les résultats de l'étude non-publiée sur le fake news by repetition effect dont j'ai partagé le préenregistrement et une présentation plus tôt ce semestre pour le TER L3 HPS6U26.
+
+Les données participants $*$ items et les données agrégées à chaque niveau participant $*$ condition pourront être téléchargées à partir de ce document. Vous pouvez les utiliser pour réaliser des analyses avec le logiciel JASP par exemple.
+
+Dernier point : le code R qui sert à réaliser les opérations sur les données, à réaliser les tests statistiques, et à générer la figure est par défaut caché (et utilisé pour générer automatiquement les éléments de résultats rapportés). Pour le consulter (le code est en grande partie annoté), vous pouvez cliquer sur `Cliquer ici pour voir le code R` quand cette expression apparaît plus bas).
+
+## Participants
+
+```{r setup}
+#Load (or install and load) packages
+require(pacman)
+p_load('tidyverse', 'dplyr', 'psych')
+
+# read the data file
+dat = read.csv("data.csv")
+
+# table(dat$consent)
+# table(dat$serious)
+# table(dat$pay_attention)
+
+#Socio-demographic information
+sociodemo = read.csv("sociodemographic_information.csv")
+
+sociodemo = sociodemo %>% filter(Status=="APPROVED")
+tab_sex = as.matrix(table(sociodemo$Sex)/219)
+#describe(sociodemo$Age)
+```
+
+Sur les 220 participants qui ont participé à l'étude (sur la plateforme Prolific, étude en ligne ; les participants étaient rémunérés), nous avons collecté les données complètes de `r length(unique(dat$url.srid))` participants (`r round(tab_sex[1], digits=2)*100`$\%$ femmes; $M_{âge} =$ `r round(mean(sociodemo$Age), digits=2)` ; $SD_{âge} =$ `r round(sd(sociodemo$Age), digits=2)`). Aucun participant n'était à exclure sur base des critères d'exclusion préenregistrés (déclaration de réponses au hasard ; déclaration de ne pas avoir fait attention aux consignes ou aux affirmations).
+
+## Constitution du jeu de données pour les analyses
+
+Voir le code `R` pour la constitution du jeu de données pour les analyses.
+
+```{r make_df}
+#Retrieve the statements ppts saw in the exposure phase and keep only the variables of interest
+dat_exposure = dat %>% 
+  filter(sender == "exposure_trial") %>%
+  select(url.srid, statements, Truth, encoding_phase)
+
+##Check that the exposure phase worked as intended in the experiment: 20 different statements, half true and half false
+#check whether all repeated statements appeared only once for each participant - should be the case
+check_exp = table(dat_exposure$statements, dat_exposure$url.srid)
+# table(check_exp>1) #should only be "false" - it is "false"
+
+#In the exposure phase, do we have as many true and false participants at the aggregated level?
+# table(dat_exposure$Truth) #yes
+
+#and for each participant?
+# table(dat_exposure$Truth, dat_exposure$url.srid) #yes, we find 10 true and 10 false statements for each participant
+
+#say that the present statements are all repeated (because they were seen the exposure phase)
+dat_exposure$repetition = "repeated"
+
+#Retrieve the statements and responses from the test phase, and keep only the variables of interest
+dat_judgment = dat %>% 
+  filter(sender == "judgment_trial") %>%
+  select(url.srid, response, statements_judgment, Truth_judgment, judgment_phase, serious, pay_attention)
+
+#rename the columns to have "statements" named in the same way in data_exposure and data_test
+colnames(dat_judgment) = c("url.srid", "response", "statements", "Truth", "judgment_phase", "check_seriousness", "check_attention")
+
+#we make one data set with data_exposure and data_test, merging by ID and statements
+data_all = full_join(dat_judgment, dat_exposure
+                     , by = c("url.srid" = "url.srid", "statements"="statements", "Truth" = "Truth"))
+
+#statements that do not appear in the first session are new
+data_all$repetition = replace_na(data_all$repetition, "new")
+
+#check if same number of true and false statements in each Repetition condition
+# table(data_all$Truth, data_all$repetition) #yes, the program worked as intended
+
+data_all$url.srid = as.factor(data_all$url.srid)
+data_all$response = as.factor(data_all$response)
+data_all$statements = as.factor(data_all$statements)
+data_all$Truth = as.factor(data_all$Truth)
+data_all$repetition = as.factor(data_all$repetition)
+
+#recode "fake news" judgments: if "resp_fake_news" : 1; else: 0
+data_all$fakeness_judg = ifelse(data_all$response == "resp_fake_news", 1,0)
+
+#save the final data set, but first rename the columns
+colnames(data_all) = c("ppt", "response", "statement", "truth", "pos_judgment_phase", "check_seriousness", "check_attention", "pos_exposure_phase", "repetition", "fakeness_judg")
+
+# data_all = data_all %>%
+#   select(ppt, statement, truth, repetition, fakeness_judg)
+
+# table(data_all$response, data_all$fakeness_judg)
+# table(data_all$repetition, data_all$pos_exposure_phase)
+
+#write the data file if needed
+#write.csv(data_all, "data_all.csv")
+```
+
+## Jeu de données long participant $*$ item 
+
+Voici un aperçu du jeu de données (pour $N =$ `r length(unique(data_all$ppt))` participants et $k = 40$ affirmations = 8760 lignes dans le jeu de données) :
+
+```{r illustrate_df}
+p_load(DT)
+datatable(data_all)
+```
+
+Ce jeu de données contient notamment les colonnes suivantes :
+
+- `r colnames(data_all)[1]` : identifiant de chaque participant
+- `r colnames(data_all)[3]` : affirmation-cible
+- `r colnames(data_all)[4]` : vérité de l'affirmation
+- `r colnames(data_all)[9]` : condition de répétition de l'affirmation
+- `r colnames(data_all)[10]` : jugement de fakeness (0 : 'real news' ; 1 : 'fake news') -- redondant avec `response`, mais le codage binaire permet d'utiliser cette variable dans les analyses).
+
+Vous pouvez télécharger ce jeu de données via le bouton ci-dessous : 
+
+{{< downloadthis data_all.csv
+label="Télécharger les données" dname=data_all id=dl-btn icon="database-fill-down" type="info" >}}
+
+## Autres jeux de données pour analyses de type ANOVA, tests t...
+
+```{r analyses1}
+#load packages
+p_load('afex', 'lme4', 'lmerTest', 'effectsize', 'sjstats', 'sjPlot', 'BayesFactor', 'ggeffects', 'bfrr', 'papaja')
+
+data_all$ppt = as.factor(data_all$ppt)
+data_all$response = as.factor(data_all$response)
+data_all$statement = as.factor(data_all$statement)
+data_all$truth = as.factor(data_all$truth)
+data_all$repetition = as.factor(data_all$repetition)
+data_all$fakeness_judg = as.numeric(data_all$fakeness_judg)
+```
+
+Créons un jeu de données avec les proportions de jugements 'fake news' pour chaque participant dans chaque condition de répétition à travers les 40 affirmations :
+
+```{r analyses2}
+#first, compute the proportions of "fake news" judgments for each participant and separately for repeated and new statements
+data_agg = data_all %>% 
+  group_by(repetition, ppt) %>% 
+  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of "yes fake news" responses for each Repetition condition and for each participant
+
+data_agg$repetition = as.factor(data_agg$repetition)
+#data_agg$truth = as.factor(data_agg$truth)
+data_agg$ppt = as.factor(data_agg$ppt)
+```
+Nous avons maintenant un jeu de données avec 438 lignes (deux pour chaque participant ; une ligne correspond à la proportion de jugements 'fake news' sur les affirmations répétées, et l'autre à la proportion de jugements 'faje news' sur les affirmations nouvelles) :
+
+```{r illustrate_df2}
+datatable(data_agg)
+```
+
+Il est possible d'obtenir ce jeu de données au format 'large' pour l'utiliser dans JASP par exemple :
+
+```{r wide}
+data_agg_wide = data_agg %>% pivot_wider(names_from = repetition
+                                         ,values_from = "mean_fakenews")
+
+datatable(data_agg_wide)
+```
+
+Ce jeu de données simplifié peut être téléchargé ici (au format `.csv`) :
+
+{{< downloadthis data_agg_wide.csv
+label="Télécharger les données" dname=data_agg_wide id=dl-btn icon="database-fill-down" type="info" >}}
+
+Au besoin, un jeu de données similaire peut être téléchargé en fonction de la vérité factuelle des affirmations, en plus de la répétition (ce qui donne quatre lignes par participant) :
+
+```{r analyses3}
+#first, compute the proportions of "fake news" judgments for each participant and separately for repeated and new statements
+data_agg_v = data_all %>% 
+  group_by(repetition, truth, ppt) %>% 
+  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of "yes fake news" responses for each Repetition*Factual truth condition and for each participant
+
+data_agg_v$repetition = as.factor(data_agg_v$repetition)
+data_agg_v$truth = as.factor(data_agg_v$truth)
+data_agg_v$ppt = as.factor(data_agg_v$ppt)
+```
+```{r illustrate_df3}
+datatable(data_agg_v)
+```
+
+Voici ce même jeu de données en format large :
+
+```{r wide2}
+data_agg_v_wide = data_agg_v %>% pivot_wider(names_from = c(repetition, truth)
+                                         ,values_from = "mean_fakenews")
+
+datatable(data_agg_v_wide)
+```
+
+Vous pouvez le télécharger ici :
+
+{{< downloadthis data_agg_v_wide.csv
+label="Télécharger les données" dname=data_agg_v_wide id=dl-btn icon="database-fill-down" type="info" >}}
+
+## Quelques analyses statistiques et une figure
+
+Ces jeux de données permettent des analyses telles que des tests $t$, ou ANOVA par exemple. Je présente des éléments de cette stratégie d'analyse ci-dessous. Les analyses préenregistrées (autres analyses fréquentistes, dont modèle mixte ; analyses bayésiennes) ne sont pas présentées. 
+
+```{r anova}
+mod1 = aov_ez(id = "ppt"
+             ,dv = "mean_fakenews"
+             ,within = c("repetition", "truth")
+             ,data = data_agg_v)
+
+report_mod1 = apa_print(mod1)
+```
+
+Nous avons réalisé une ANOVA 2 (Répétition) $*$ 2 (Vérité factuelle) sur les proportions de jugements "fake news". L'effet principal de la répétition est significatif, `r report_mod1$full_result$repetition`. De façon intéressante, la proportion de jugements 'fake news' était **inférieure** pour les affirmations répétées ($M =$ `r round(mean(data_agg$mean_fakenews[data_agg$repetition=="repeated"]), digits=2)` ; $SD =$ `r round(sd(data_agg$mean_fakenews[data_agg$repetition=="repeated"]), digits=2)`) par rapport à nouvelles ($M =$ `r round(mean(data_agg$mean_fakenews[data_agg$repetition=="new"]), digits=2)` ; $SD =$ `r round(sd(data_agg$mean_fakenews[data_agg$repetition=="new"]), digits=2)`). L'effet principal de la vérité factuelle n'est pas significatif, `r report_mod1$full_result$truth`. L'effet d'interaction entre la répétition et la vérité factuelle n'est pas significatif, `r report_mod1$full_result$repetition_truth`. La figure ci-dessous présente l'effet de la répétition sur les proportions de jugements 'fake news'.
+
+```{r plot, fig.cap="Proportion de jugements 'fake news' en fonction de la répétition"}
+p_load('ggstatsplot') 
+
+ggwithinstats(data = data_agg
+                      ,subject.id = ppt
+                      ,x = repetition
+                      ,y = mean_fakenews
+                      ,results.subtitle = TRUE
+                      ,ggtheme = theme_bw()
+                      ,bf.message = FALSE
+                      ,centrality.type = "mean"
+                      ,centrality.path=FALSE
+                      ,xlab = "Repetition"
+                      ,ylab = "Proportion of 'fake news' judgments"
+)
+```
+

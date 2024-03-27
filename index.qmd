@@ -1,10 +1,10 @@
 ---
-title: "TITRE"
+title: "Page principale"
 listing:
-  contents: posts
-  sort: "date desc"
+  # contents: posts
+  # sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
@@ -13,7 +13,7 @@ title-block-banner: true
 
 Ce site présente différentes informations :
 
-- Des pages **Enseignements**, qui présente des contenus de cours d'UE XXXXX
+- Une page **Enseignements**, qui présente des contenus de cours pour les UE XXXXX.
 - Une page **Recherches**, qui présente mes thématiques de recherche.
 
-Vous trouverez ci-dessous les entrées les plus récentes :
+BLABLA.
