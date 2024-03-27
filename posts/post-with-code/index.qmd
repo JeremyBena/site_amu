@@ -1,16 +1,8 @@
 ---
-title: "Billet #2"
-date: today
+title: "CECI EST UN AUTRE TEST"
+date: "27 mars 2024"
 author: ""
-categories: [non classé]
+categories: [A; C; D]
 ---
 
-# section 1
-
-## section 2
-
-### section 3
-
-##### Section 4 etc.
-
-Ce billet est vide. A venir.
+ENCORE UN TEST.

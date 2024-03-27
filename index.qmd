@@ -11,4 +11,9 @@ page-layout: full
 title-block-banner: true
 ---
 
-Empty.
+Ce site présente différentes informations :
+
+- Des pages **Enseignements**, qui présente des contenus de cours d'UE XXXXX
+- Une page **Recherches**, qui présente mes thématiques de recherche.
+
+Vous trouverez ci-dessous les entrées les plus récentes :

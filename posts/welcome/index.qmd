@@ -1,8 +1,8 @@
 ---
-title: "Billet #1 -- TEST"
-date: today
+title: "ENTREE 1 TEST"
+date: "27 mars 2024"
 author: ""
-categories: [effet; psychologie expérimentale]
+categories: [A; B]
 ---
 
-TEST
+CECI EST UN TEST
