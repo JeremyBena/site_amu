@@ -7421,22 +7421,29 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../coursA.html"> 
-<span class="menu-text">À propos</span></a>
+<span class="menu-text">Enseignement A</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../coursB.html"> 
-<span class="menu-text">À propos</span></a>
+<span class="menu-text">Enseignement B</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../recherche.html"> 
-<span class="menu-text">À propos</span></a>
+<span class="menu-text">Recherche</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">À propos</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JeremyBena/site_amu"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -7457,7 +7464,7 @@ window.Quarto = {
   <div class="quarto-title-meta">
 
       <div>
-      <div class="quarto-title-meta-heading">Créé par :</div>
+      <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
                <p>Jérémy Béna </p>
             </div>
@@ -8230,249 +8237,248 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class>
 <div class="sourceCode" id="cb13" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> &quot;Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? -- pour TER L3, HPS6U26, AMU&quot;</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> &quot;Jérémy Béna&quot;</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> last-modified</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> &quot;&quot;</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> &quot;27 mars 2024&quot;</span></span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
 <span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-title: &quot;Contenus du document&quot;</span></span>
 <span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co">    published-title: &quot;Mis en ligne le :&quot;</span></span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co">    author-title: &quot;Créé par :&quot;</span></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: &quot;Cliquer ici pour voir le code R&quot;</span></span>
-<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
-<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="an">css:</span><span class="co"> style.css</span></span>
-<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="an">embed-resources:</span><span class="co"> true</span></span>
-<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span><span class="co"> </span></span>
-<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="co">    warning: false</span></span>
-<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
-<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ce document</span></span>
-<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>Ce document présente les analyses et les résultats de l&#39;étude non-publiée sur le fake news by repetition effect dont j&#39;ai partagé le préenregistrement et une présentation plus tôt ce semestre pour le TER L3 HPS6U26.</span>
-<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>Les données participants $*$ items et les données agrégées à chaque niveau participant $*$ condition pourront être téléchargées à partir de ce document. Vous pouvez les utiliser pour réaliser des analyses avec le logiciel JASP par exemple.</span>
-<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>Dernier point : le code R qui sert à réaliser les opérations sur les données, à réaliser les tests statistiques, et à générer la figure est par défaut caché (et utilisé pour générer automatiquement les éléments de résultats rapportés). Pour le consulter (le code est en grande partie annoté), vous pouvez cliquer sur <span class="in">`Cliquer ici pour voir le code R`</span> quand cette expression apparaît plus bas).</span>
-<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## Participants</span></span>
-<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a><span class="in">```{r setup}</span></span>
-<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a><span class="in">#Load (or install and load) packages</span></span>
-<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a><span class="in">require(pacman)</span></span>
-<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;tidyverse&#39;, &#39;dplyr&#39;, &#39;psych&#39;)</span></span>
-<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a><span class="in"># read the data file</span></span>
-<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a><span class="in">dat = read.csv(&quot;data.csv&quot;)</span></span>
-<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$consent)</span></span>
-<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$serious)</span></span>
-<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$pay_attention)</span></span>
-<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a><span class="in">#Socio-demographic information</span></span>
-<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a><span class="in">sociodemo = read.csv(&quot;sociodemographic_information.csv&quot;)</span></span>
-<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a><span class="in">sociodemo = sociodemo %&gt;% filter(Status==&quot;APPROVED&quot;)</span></span>
-<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a><span class="in">tab_sex = as.matrix(table(sociodemo$Sex)/219)</span></span>
-<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a><span class="in">#describe(sociodemo$Age)</span></span>
-<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>Sur les 220 participants qui ont participé à l&#39;étude (sur la plateforme Prolific, étude en ligne ; les participants étaient rémunérés), nous avons collecté les données complètes de <span class="in">`r length(unique(dat$url.srid))`</span> participants (<span class="in">`r round(tab_sex[1], digits=2)*100`</span>$\%$ femmes; $M_{âge} =$ <span class="in">`r round(mean(sociodemo$Age), digits=2)`</span> ; $SD_{âge} =$ <span class="in">`r round(sd(sociodemo$Age), digits=2)`</span>). Aucun participant n&#39;était à exclure sur base des critères d&#39;exclusion préenregistrés (déclaration de réponses au hasard ; déclaration de ne pas avoir fait attention aux consignes ou aux affirmations).</span>
-<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a><span class="fu">## Constitution du jeu de données pour les analyses</span></span>
-<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>Voir le code <span class="in">`R`</span> pour la constitution du jeu de données pour les analyses.</span>
-<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a><span class="in">```{r make_df}</span></span>
-<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a><span class="in">#Retrieve the statements ppts saw in the exposure phase and keep only the variables of interest</span></span>
-<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a><span class="in">dat_exposure = dat %&gt;% </span></span>
-<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a><span class="in">  filter(sender == &quot;exposure_trial&quot;) %&gt;%</span></span>
-<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a><span class="in">  select(url.srid, statements, Truth, encoding_phase)</span></span>
-<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a><span class="in">##Check that the exposure phase worked as intended in the experiment: 20 different statements, half true and half false</span></span>
-<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a><span class="in">#check whether all repeated statements appeared only once for each participant - should be the case</span></span>
-<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a><span class="in">check_exp = table(dat_exposure$statements, dat_exposure$url.srid)</span></span>
-<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a><span class="in"># table(check_exp&gt;1) #should only be &quot;false&quot; - it is &quot;false&quot;</span></span>
-<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a><span class="in">#In the exposure phase, do we have as many true and false participants at the aggregated level?</span></span>
-<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat_exposure$Truth) #yes</span></span>
-<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a><span class="in">#and for each participant?</span></span>
-<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat_exposure$Truth, dat_exposure$url.srid) #yes, we find 10 true and 10 false statements for each participant</span></span>
-<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a><span class="in">#say that the present statements are all repeated (because they were seen the exposure phase)</span></span>
-<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a><span class="in">dat_exposure$repetition = &quot;repeated&quot;</span></span>
-<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a><span class="in">#Retrieve the statements and responses from the test phase, and keep only the variables of interest</span></span>
-<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a><span class="in">dat_judgment = dat %&gt;% </span></span>
-<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a><span class="in">  filter(sender == &quot;judgment_trial&quot;) %&gt;%</span></span>
-<span id="cb13-80"><a href="#cb13-80" aria-hidden="true" tabindex="-1"></a><span class="in">  select(url.srid, response, statements_judgment, Truth_judgment, judgment_phase, serious, pay_attention)</span></span>
-<span id="cb13-81"><a href="#cb13-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-82"><a href="#cb13-82" aria-hidden="true" tabindex="-1"></a><span class="in">#rename the columns to have &quot;statements&quot; named in the same way in data_exposure and data_test</span></span>
-<span id="cb13-83"><a href="#cb13-83" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(dat_judgment) = c(&quot;url.srid&quot;, &quot;response&quot;, &quot;statements&quot;, &quot;Truth&quot;, &quot;judgment_phase&quot;, &quot;check_seriousness&quot;, &quot;check_attention&quot;)</span></span>
-<span id="cb13-84"><a href="#cb13-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-85"><a href="#cb13-85" aria-hidden="true" tabindex="-1"></a><span class="in">#we make one data set with data_exposure and data_test, merging by ID and statements</span></span>
-<span id="cb13-86"><a href="#cb13-86" aria-hidden="true" tabindex="-1"></a><span class="in">data_all = full_join(dat_judgment, dat_exposure</span></span>
-<span id="cb13-87"><a href="#cb13-87" aria-hidden="true" tabindex="-1"></a><span class="in">                     , by = c(&quot;url.srid&quot; = &quot;url.srid&quot;, &quot;statements&quot;=&quot;statements&quot;, &quot;Truth&quot; = &quot;Truth&quot;))</span></span>
-<span id="cb13-88"><a href="#cb13-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-89"><a href="#cb13-89" aria-hidden="true" tabindex="-1"></a><span class="in">#statements that do not appear in the first session are new</span></span>
-<span id="cb13-90"><a href="#cb13-90" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = replace_na(data_all$repetition, &quot;new&quot;)</span></span>
-<span id="cb13-91"><a href="#cb13-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-92"><a href="#cb13-92" aria-hidden="true" tabindex="-1"></a><span class="in">#check if same number of true and false statements in each Repetition condition</span></span>
-<span id="cb13-93"><a href="#cb13-93" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$Truth, data_all$repetition) #yes, the program worked as intended</span></span>
-<span id="cb13-94"><a href="#cb13-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-95"><a href="#cb13-95" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$url.srid = as.factor(data_all$url.srid)</span></span>
-<span id="cb13-96"><a href="#cb13-96" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$response = as.factor(data_all$response)</span></span>
-<span id="cb13-97"><a href="#cb13-97" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$statements = as.factor(data_all$statements)</span></span>
-<span id="cb13-98"><a href="#cb13-98" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$Truth = as.factor(data_all$Truth)</span></span>
-<span id="cb13-99"><a href="#cb13-99" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = as.factor(data_all$repetition)</span></span>
-<span id="cb13-100"><a href="#cb13-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-101"><a href="#cb13-101" aria-hidden="true" tabindex="-1"></a><span class="in">#recode &quot;fake news&quot; judgments: if &quot;resp_fake_news&quot; : 1; else: 0</span></span>
-<span id="cb13-102"><a href="#cb13-102" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$fakeness_judg = ifelse(data_all$response == &quot;resp_fake_news&quot;, 1,0)</span></span>
-<span id="cb13-103"><a href="#cb13-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-104"><a href="#cb13-104" aria-hidden="true" tabindex="-1"></a><span class="in">#save the final data set, but first rename the columns</span></span>
-<span id="cb13-105"><a href="#cb13-105" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(data_all) = c(&quot;ppt&quot;, &quot;response&quot;, &quot;statement&quot;, &quot;truth&quot;, &quot;pos_judgment_phase&quot;, &quot;check_seriousness&quot;, &quot;check_attention&quot;, &quot;pos_exposure_phase&quot;, &quot;repetition&quot;, &quot;fakeness_judg&quot;)</span></span>
-<span id="cb13-106"><a href="#cb13-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-107"><a href="#cb13-107" aria-hidden="true" tabindex="-1"></a><span class="in"># data_all = data_all %&gt;%</span></span>
-<span id="cb13-108"><a href="#cb13-108" aria-hidden="true" tabindex="-1"></a><span class="in">#   select(ppt, statement, truth, repetition, fakeness_judg)</span></span>
-<span id="cb13-109"><a href="#cb13-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-110"><a href="#cb13-110" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$response, data_all$fakeness_judg)</span></span>
-<span id="cb13-111"><a href="#cb13-111" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$repetition, data_all$pos_exposure_phase)</span></span>
-<span id="cb13-112"><a href="#cb13-112" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-113"><a href="#cb13-113" aria-hidden="true" tabindex="-1"></a><span class="in">#write the data file if needed</span></span>
-<span id="cb13-114"><a href="#cb13-114" aria-hidden="true" tabindex="-1"></a><span class="in">#write.csv(data_all, &quot;data_all.csv&quot;)</span></span>
-<span id="cb13-115"><a href="#cb13-115" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-116"><a href="#cb13-116" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-117"><a href="#cb13-117" aria-hidden="true" tabindex="-1"></a><span class="fu">## Jeu de données long participant $*$ item </span></span>
-<span id="cb13-118"><a href="#cb13-118" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-119"><a href="#cb13-119" aria-hidden="true" tabindex="-1"></a>Voici un aperçu du jeu de données (pour $N =$ <span class="in">`r length(unique(data_all$ppt))`</span> participants et $k = 40$ affirmations = 8760 lignes dans le jeu de données) :</span>
-<span id="cb13-120"><a href="#cb13-120" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-121"><a href="#cb13-121" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df}</span></span>
-<span id="cb13-122"><a href="#cb13-122" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(DT)</span></span>
-<span id="cb13-123"><a href="#cb13-123" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_all)</span></span>
-<span id="cb13-124"><a href="#cb13-124" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-125"><a href="#cb13-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-126"><a href="#cb13-126" aria-hidden="true" tabindex="-1"></a>Ce jeu de données contient notamment les colonnes suivantes :</span>
-<span id="cb13-127"><a href="#cb13-127" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-128"><a href="#cb13-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[1]`</span> : identifiant de chaque participant</span>
-<span id="cb13-129"><a href="#cb13-129" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[3]`</span> : affirmation-cible</span>
-<span id="cb13-130"><a href="#cb13-130" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[4]`</span> : vérité de l&#39;affirmation</span>
-<span id="cb13-131"><a href="#cb13-131" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[9]`</span> : condition de répétition de l&#39;affirmation</span>
-<span id="cb13-132"><a href="#cb13-132" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[10]`</span> : jugement de fakeness (0 : &#39;real news&#39; ; 1 : &#39;fake news&#39;) -- redondant avec <span class="in">`response`</span>, mais le codage binaire permet d&#39;utiliser cette variable dans les analyses).</span>
-<span id="cb13-133"><a href="#cb13-133" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-134"><a href="#cb13-134" aria-hidden="true" tabindex="-1"></a>Vous pouvez télécharger ce jeu de données via le bouton ci-dessous : </span>
-<span id="cb13-135"><a href="#cb13-135" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-136"><a href="#cb13-136" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_all.csv</span>
-<span id="cb13-137"><a href="#cb13-137" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_all id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
-<span id="cb13-138"><a href="#cb13-138" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-139"><a href="#cb13-139" aria-hidden="true" tabindex="-1"></a><span class="fu">## Autres jeux de données pour analyses de type ANOVA, tests t...</span></span>
-<span id="cb13-140"><a href="#cb13-140" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-141"><a href="#cb13-141" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses1}</span></span>
-<span id="cb13-142"><a href="#cb13-142" aria-hidden="true" tabindex="-1"></a><span class="in">#load packages</span></span>
-<span id="cb13-143"><a href="#cb13-143" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;afex&#39;, &#39;lme4&#39;, &#39;lmerTest&#39;, &#39;effectsize&#39;, &#39;sjstats&#39;, &#39;sjPlot&#39;, &#39;BayesFactor&#39;, &#39;ggeffects&#39;, &#39;bfrr&#39;, &#39;papaja&#39;)</span></span>
-<span id="cb13-144"><a href="#cb13-144" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-145"><a href="#cb13-145" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$ppt = as.factor(data_all$ppt)</span></span>
-<span id="cb13-146"><a href="#cb13-146" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$response = as.factor(data_all$response)</span></span>
-<span id="cb13-147"><a href="#cb13-147" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$statement = as.factor(data_all$statement)</span></span>
-<span id="cb13-148"><a href="#cb13-148" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$truth = as.factor(data_all$truth)</span></span>
-<span id="cb13-149"><a href="#cb13-149" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = as.factor(data_all$repetition)</span></span>
-<span id="cb13-150"><a href="#cb13-150" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$fakeness_judg = as.numeric(data_all$fakeness_judg)</span></span>
-<span id="cb13-151"><a href="#cb13-151" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-152"><a href="#cb13-152" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-153"><a href="#cb13-153" aria-hidden="true" tabindex="-1"></a>Créons un jeu de données avec les proportions de jugements &#39;fake news&#39; pour chaque participant dans chaque condition de répétition à travers les 40 affirmations :</span>
-<span id="cb13-154"><a href="#cb13-154" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-155"><a href="#cb13-155" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses2}</span></span>
-<span id="cb13-156"><a href="#cb13-156" aria-hidden="true" tabindex="-1"></a><span class="in">#first, compute the proportions of &quot;fake news&quot; judgments for each participant and separately for repeated and new statements</span></span>
-<span id="cb13-157"><a href="#cb13-157" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg = data_all %&gt;% </span></span>
-<span id="cb13-158"><a href="#cb13-158" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(repetition, ppt) %&gt;% </span></span>
-<span id="cb13-159"><a href="#cb13-159" aria-hidden="true" tabindex="-1"></a><span class="in">  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of &quot;yes fake news&quot; responses for each Repetition condition and for each participant</span></span>
-<span id="cb13-160"><a href="#cb13-160" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-161"><a href="#cb13-161" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg$repetition = as.factor(data_agg$repetition)</span></span>
-<span id="cb13-162"><a href="#cb13-162" aria-hidden="true" tabindex="-1"></a><span class="in">#data_agg$truth = as.factor(data_agg$truth)</span></span>
-<span id="cb13-163"><a href="#cb13-163" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg$ppt = as.factor(data_agg$ppt)</span></span>
-<span id="cb13-164"><a href="#cb13-164" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-165"><a href="#cb13-165" aria-hidden="true" tabindex="-1"></a>Nous avons maintenant un jeu de données avec 438 lignes (deux pour chaque participant ; une ligne correspond à la proportion de jugements &#39;fake news&#39; sur les affirmations répétées, et l&#39;autre à la proportion de jugements &#39;faje news&#39; sur les affirmations nouvelles) :</span>
-<span id="cb13-166"><a href="#cb13-166" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-167"><a href="#cb13-167" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df2}</span></span>
-<span id="cb13-168"><a href="#cb13-168" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg)</span></span>
-<span id="cb13-169"><a href="#cb13-169" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-170"><a href="#cb13-170" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-171"><a href="#cb13-171" aria-hidden="true" tabindex="-1"></a>Il est possible d&#39;obtenir ce jeu de données au format &#39;large&#39; pour l&#39;utiliser dans JASP par exemple :</span>
-<span id="cb13-172"><a href="#cb13-172" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-173"><a href="#cb13-173" aria-hidden="true" tabindex="-1"></a><span class="in">```{r wide}</span></span>
-<span id="cb13-174"><a href="#cb13-174" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_wide = data_agg %&gt;% pivot_wider(names_from = repetition</span></span>
-<span id="cb13-175"><a href="#cb13-175" aria-hidden="true" tabindex="-1"></a><span class="in">                                         ,values_from = &quot;mean_fakenews&quot;)</span></span>
-<span id="cb13-176"><a href="#cb13-176" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-177"><a href="#cb13-177" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_wide)</span></span>
-<span id="cb13-178"><a href="#cb13-178" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-179"><a href="#cb13-179" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-180"><a href="#cb13-180" aria-hidden="true" tabindex="-1"></a>Ce jeu de données simplifié peut être téléchargé ici (au format <span class="in">`.csv`</span>) :</span>
-<span id="cb13-181"><a href="#cb13-181" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-182"><a href="#cb13-182" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_agg_wide.csv</span>
-<span id="cb13-183"><a href="#cb13-183" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_agg_wide id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
-<span id="cb13-184"><a href="#cb13-184" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-185"><a href="#cb13-185" aria-hidden="true" tabindex="-1"></a>Au besoin, un jeu de données similaire peut être téléchargé en fonction de la vérité factuelle des affirmations, en plus de la répétition (ce qui donne quatre lignes par participant) :</span>
-<span id="cb13-186"><a href="#cb13-186" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-187"><a href="#cb13-187" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses3}</span></span>
-<span id="cb13-188"><a href="#cb13-188" aria-hidden="true" tabindex="-1"></a><span class="in">#first, compute the proportions of &quot;fake news&quot; judgments for each participant and separately for repeated and new statements</span></span>
-<span id="cb13-189"><a href="#cb13-189" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v = data_all %&gt;% </span></span>
-<span id="cb13-190"><a href="#cb13-190" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(repetition, truth, ppt) %&gt;% </span></span>
-<span id="cb13-191"><a href="#cb13-191" aria-hidden="true" tabindex="-1"></a><span class="in">  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of &quot;yes fake news&quot; responses for each Repetition*Factual truth condition and for each participant</span></span>
-<span id="cb13-192"><a href="#cb13-192" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-193"><a href="#cb13-193" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$repetition = as.factor(data_agg_v$repetition)</span></span>
-<span id="cb13-194"><a href="#cb13-194" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$truth = as.factor(data_agg_v$truth)</span></span>
-<span id="cb13-195"><a href="#cb13-195" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$ppt = as.factor(data_agg_v$ppt)</span></span>
-<span id="cb13-196"><a href="#cb13-196" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-197"><a href="#cb13-197" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df3}</span></span>
-<span id="cb13-198"><a href="#cb13-198" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_v)</span></span>
-<span id="cb13-199"><a href="#cb13-199" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-200"><a href="#cb13-200" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-201"><a href="#cb13-201" aria-hidden="true" tabindex="-1"></a>Voici ce même jeu de données en format large :</span>
-<span id="cb13-202"><a href="#cb13-202" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-203"><a href="#cb13-203" aria-hidden="true" tabindex="-1"></a><span class="in">```{r wide2}</span></span>
-<span id="cb13-204"><a href="#cb13-204" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v_wide = data_agg_v %&gt;% pivot_wider(names_from = c(repetition, truth)</span></span>
-<span id="cb13-205"><a href="#cb13-205" aria-hidden="true" tabindex="-1"></a><span class="in">                                         ,values_from = &quot;mean_fakenews&quot;)</span></span>
-<span id="cb13-206"><a href="#cb13-206" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-207"><a href="#cb13-207" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_v_wide)</span></span>
-<span id="cb13-208"><a href="#cb13-208" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-209"><a href="#cb13-209" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-210"><a href="#cb13-210" aria-hidden="true" tabindex="-1"></a>Vous pouvez le télécharger ici :</span>
-<span id="cb13-211"><a href="#cb13-211" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-212"><a href="#cb13-212" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_agg_v_wide.csv</span>
-<span id="cb13-213"><a href="#cb13-213" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_agg_v_wide id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
-<span id="cb13-214"><a href="#cb13-214" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-215"><a href="#cb13-215" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quelques analyses statistiques et une figure</span></span>
-<span id="cb13-216"><a href="#cb13-216" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-217"><a href="#cb13-217" aria-hidden="true" tabindex="-1"></a>Ces jeux de données permettent des analyses telles que des tests $t$, ou ANOVA par exemple. Je présente des éléments de cette stratégie d&#39;analyse ci-dessous. Les analyses préenregistrées (autres analyses fréquentistes, dont modèle mixte ; analyses bayésiennes) ne sont pas présentées. </span>
-<span id="cb13-218"><a href="#cb13-218" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-219"><a href="#cb13-219" aria-hidden="true" tabindex="-1"></a><span class="in">```{r anova}</span></span>
-<span id="cb13-220"><a href="#cb13-220" aria-hidden="true" tabindex="-1"></a><span class="in">mod1 = aov_ez(id = &quot;ppt&quot;</span></span>
-<span id="cb13-221"><a href="#cb13-221" aria-hidden="true" tabindex="-1"></a><span class="in">             ,dv = &quot;mean_fakenews&quot;</span></span>
-<span id="cb13-222"><a href="#cb13-222" aria-hidden="true" tabindex="-1"></a><span class="in">             ,within = c(&quot;repetition&quot;, &quot;truth&quot;)</span></span>
-<span id="cb13-223"><a href="#cb13-223" aria-hidden="true" tabindex="-1"></a><span class="in">             ,data = data_agg_v)</span></span>
-<span id="cb13-224"><a href="#cb13-224" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-225"><a href="#cb13-225" aria-hidden="true" tabindex="-1"></a><span class="in">report_mod1 = apa_print(mod1)</span></span>
-<span id="cb13-226"><a href="#cb13-226" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb13-227"><a href="#cb13-227" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-228"><a href="#cb13-228" aria-hidden="true" tabindex="-1"></a>Nous avons réalisé une ANOVA 2 (Répétition) $*$ 2 (Vérité factuelle) sur les proportions de jugements &quot;fake news&quot;. L&#39;effet principal de la répétition est significatif, `r report_mod1$full_result$repetition`. De façon intéressante, la proportion de jugements &#39;fake news&#39; était **inférieure** pour les affirmations répétées ($M =$ <span class="in">`r round(mean(data_agg$mean_fakenews[data_agg$repetition==&quot;repeated&quot;]), digits=2)`</span> ; $SD =$ <span class="in">`r round(sd(data_agg$mean_fakenews[data_agg$repetition==&quot;repeated&quot;]), digits=2)`</span>) par rapport à nouvelles ($M =$ <span class="in">`r round(mean(data_agg$mean_fakenews[data_agg$repetition==&quot;new&quot;]), digits=2)`</span> ; $SD =$ <span class="in">`r round(sd(data_agg$mean_fakenews[data_agg$repetition==&quot;new&quot;]), digits=2)`</span>). L&#39;effet principal de la vérité factuelle n&#39;est pas significatif, <span class="in">`r report_mod1$full_result$truth`</span>. L&#39;effet d&#39;interaction entre la répétition et la vérité factuelle n&#39;est pas significatif, <span class="in">`r report_mod1$full_result$repetition_truth`</span>. La figure ci-dessous présente l&#39;effet de la répétition sur les proportions de jugements &#39;fake news&#39;.</span>
-<span id="cb13-229"><a href="#cb13-229" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-230"><a href="#cb13-230" aria-hidden="true" tabindex="-1"></a><span class="in">```{r plot, fig.cap=&quot;Proportion de jugements &#39;fake news&#39; en fonction de la répétition&quot;}</span></span>
-<span id="cb13-231"><a href="#cb13-231" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;ggstatsplot&#39;) </span></span>
-<span id="cb13-232"><a href="#cb13-232" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-233"><a href="#cb13-233" aria-hidden="true" tabindex="-1"></a><span class="in">ggwithinstats(data = data_agg</span></span>
-<span id="cb13-234"><a href="#cb13-234" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,subject.id = ppt</span></span>
-<span id="cb13-235"><a href="#cb13-235" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,x = repetition</span></span>
-<span id="cb13-236"><a href="#cb13-236" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,y = mean_fakenews</span></span>
-<span id="cb13-237"><a href="#cb13-237" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,results.subtitle = TRUE</span></span>
-<span id="cb13-238"><a href="#cb13-238" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,ggtheme = theme_bw()</span></span>
-<span id="cb13-239"><a href="#cb13-239" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,bf.message = FALSE</span></span>
-<span id="cb13-240"><a href="#cb13-240" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,centrality.type = &quot;mean&quot;</span></span>
-<span id="cb13-241"><a href="#cb13-241" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,centrality.path=FALSE</span></span>
-<span id="cb13-242"><a href="#cb13-242" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,xlab = &quot;Repetition&quot;</span></span>
-<span id="cb13-243"><a href="#cb13-243" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,ylab = &quot;Proportion of &#39;fake news&#39; judgments&quot;</span></span>
-<span id="cb13-244"><a href="#cb13-244" aria-hidden="true" tabindex="-1"></a><span class="in">)</span></span>
-<span id="cb13-245"><a href="#cb13-245" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co">    code-summary: &quot;Cliquer ici pour voir le code R&quot;</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="an">css:</span><span class="co"> style.css</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="an">embed-resources:</span><span class="co"> true</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span><span class="co"> </span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="co">    warning: false</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> source</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ce document</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>Ce document présente les analyses et les résultats de l&#39;étude non-publiée sur le fake news by repetition effect dont j&#39;ai partagé le préenregistrement et une présentation plus tôt ce semestre pour le TER L3 HPS6U26.</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>Les données participants $*$ items et les données agrégées à chaque niveau participant $*$ condition pourront être téléchargées à partir de ce document. Vous pouvez les utiliser pour réaliser des analyses avec le logiciel JASP par exemple.</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>Dernier point : le code R qui sert à réaliser les opérations sur les données, à réaliser les tests statistiques, et à générer la figure est par défaut caché (et utilisé pour générer automatiquement les éléments de résultats rapportés). Pour le consulter (le code est en grande partie annoté), vous pouvez cliquer sur <span class="in">`Cliquer ici pour voir le code R`</span> quand cette expression apparaît plus bas).</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Participants</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a><span class="in">```{r setup}</span></span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a><span class="in">#Load (or install and load) packages</span></span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a><span class="in">require(pacman)</span></span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;tidyverse&#39;, &#39;dplyr&#39;, &#39;psych&#39;)</span></span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a><span class="in"># read the data file</span></span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a><span class="in">dat = read.csv(&quot;data.csv&quot;)</span></span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$consent)</span></span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$serious)</span></span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat$pay_attention)</span></span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a><span class="in">#Socio-demographic information</span></span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a><span class="in">sociodemo = read.csv(&quot;sociodemographic_information.csv&quot;)</span></span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a><span class="in">sociodemo = sociodemo %&gt;% filter(Status==&quot;APPROVED&quot;)</span></span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a><span class="in">tab_sex = as.matrix(table(sociodemo$Sex)/219)</span></span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a><span class="in">#describe(sociodemo$Age)</span></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>Sur les 220 participants qui ont participé à l&#39;étude (sur la plateforme Prolific, étude en ligne ; les participants étaient rémunérés), nous avons collecté les données complètes de <span class="in">`r length(unique(dat$url.srid))`</span> participants (<span class="in">`r round(tab_sex[1], digits=2)*100`</span>$\%$ femmes; $M_{âge} =$ <span class="in">`r round(mean(sociodemo$Age), digits=2)`</span> ; $SD_{âge} =$ <span class="in">`r round(sd(sociodemo$Age), digits=2)`</span>). Aucun participant n&#39;était à exclure sur base des critères d&#39;exclusion préenregistrés (déclaration de réponses au hasard ; déclaration de ne pas avoir fait attention aux consignes ou aux affirmations).</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## Constitution du jeu de données pour les analyses</span></span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>Voir le code <span class="in">`R`</span> pour la constitution du jeu de données pour les analyses.</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a><span class="in">```{r make_df}</span></span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a><span class="in">#Retrieve the statements ppts saw in the exposure phase and keep only the variables of interest</span></span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a><span class="in">dat_exposure = dat %&gt;% </span></span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a><span class="in">  filter(sender == &quot;exposure_trial&quot;) %&gt;%</span></span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a><span class="in">  select(url.srid, statements, Truth, encoding_phase)</span></span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a><span class="in">##Check that the exposure phase worked as intended in the experiment: 20 different statements, half true and half false</span></span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a><span class="in">#check whether all repeated statements appeared only once for each participant - should be the case</span></span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a><span class="in">check_exp = table(dat_exposure$statements, dat_exposure$url.srid)</span></span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a><span class="in"># table(check_exp&gt;1) #should only be &quot;false&quot; - it is &quot;false&quot;</span></span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a><span class="in">#In the exposure phase, do we have as many true and false participants at the aggregated level?</span></span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat_exposure$Truth) #yes</span></span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a><span class="in">#and for each participant?</span></span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a><span class="in"># table(dat_exposure$Truth, dat_exposure$url.srid) #yes, we find 10 true and 10 false statements for each participant</span></span>
+<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a><span class="in">#say that the present statements are all repeated (because they were seen the exposure phase)</span></span>
+<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a><span class="in">dat_exposure$repetition = &quot;repeated&quot;</span></span>
+<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a><span class="in">#Retrieve the statements and responses from the test phase, and keep only the variables of interest</span></span>
+<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a><span class="in">dat_judgment = dat %&gt;% </span></span>
+<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a><span class="in">  filter(sender == &quot;judgment_trial&quot;) %&gt;%</span></span>
+<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a><span class="in">  select(url.srid, response, statements_judgment, Truth_judgment, judgment_phase, serious, pay_attention)</span></span>
+<span id="cb13-80"><a href="#cb13-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-81"><a href="#cb13-81" aria-hidden="true" tabindex="-1"></a><span class="in">#rename the columns to have &quot;statements&quot; named in the same way in data_exposure and data_test</span></span>
+<span id="cb13-82"><a href="#cb13-82" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(dat_judgment) = c(&quot;url.srid&quot;, &quot;response&quot;, &quot;statements&quot;, &quot;Truth&quot;, &quot;judgment_phase&quot;, &quot;check_seriousness&quot;, &quot;check_attention&quot;)</span></span>
+<span id="cb13-83"><a href="#cb13-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-84"><a href="#cb13-84" aria-hidden="true" tabindex="-1"></a><span class="in">#we make one data set with data_exposure and data_test, merging by ID and statements</span></span>
+<span id="cb13-85"><a href="#cb13-85" aria-hidden="true" tabindex="-1"></a><span class="in">data_all = full_join(dat_judgment, dat_exposure</span></span>
+<span id="cb13-86"><a href="#cb13-86" aria-hidden="true" tabindex="-1"></a><span class="in">                     , by = c(&quot;url.srid&quot; = &quot;url.srid&quot;, &quot;statements&quot;=&quot;statements&quot;, &quot;Truth&quot; = &quot;Truth&quot;))</span></span>
+<span id="cb13-87"><a href="#cb13-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-88"><a href="#cb13-88" aria-hidden="true" tabindex="-1"></a><span class="in">#statements that do not appear in the first session are new</span></span>
+<span id="cb13-89"><a href="#cb13-89" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = replace_na(data_all$repetition, &quot;new&quot;)</span></span>
+<span id="cb13-90"><a href="#cb13-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-91"><a href="#cb13-91" aria-hidden="true" tabindex="-1"></a><span class="in">#check if same number of true and false statements in each Repetition condition</span></span>
+<span id="cb13-92"><a href="#cb13-92" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$Truth, data_all$repetition) #yes, the program worked as intended</span></span>
+<span id="cb13-93"><a href="#cb13-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-94"><a href="#cb13-94" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$url.srid = as.factor(data_all$url.srid)</span></span>
+<span id="cb13-95"><a href="#cb13-95" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$response = as.factor(data_all$response)</span></span>
+<span id="cb13-96"><a href="#cb13-96" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$statements = as.factor(data_all$statements)</span></span>
+<span id="cb13-97"><a href="#cb13-97" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$Truth = as.factor(data_all$Truth)</span></span>
+<span id="cb13-98"><a href="#cb13-98" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = as.factor(data_all$repetition)</span></span>
+<span id="cb13-99"><a href="#cb13-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-100"><a href="#cb13-100" aria-hidden="true" tabindex="-1"></a><span class="in">#recode &quot;fake news&quot; judgments: if &quot;resp_fake_news&quot; : 1; else: 0</span></span>
+<span id="cb13-101"><a href="#cb13-101" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$fakeness_judg = ifelse(data_all$response == &quot;resp_fake_news&quot;, 1,0)</span></span>
+<span id="cb13-102"><a href="#cb13-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-103"><a href="#cb13-103" aria-hidden="true" tabindex="-1"></a><span class="in">#save the final data set, but first rename the columns</span></span>
+<span id="cb13-104"><a href="#cb13-104" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(data_all) = c(&quot;ppt&quot;, &quot;response&quot;, &quot;statement&quot;, &quot;truth&quot;, &quot;pos_judgment_phase&quot;, &quot;check_seriousness&quot;, &quot;check_attention&quot;, &quot;pos_exposure_phase&quot;, &quot;repetition&quot;, &quot;fakeness_judg&quot;)</span></span>
+<span id="cb13-105"><a href="#cb13-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-106"><a href="#cb13-106" aria-hidden="true" tabindex="-1"></a><span class="in"># data_all = data_all %&gt;%</span></span>
+<span id="cb13-107"><a href="#cb13-107" aria-hidden="true" tabindex="-1"></a><span class="in">#   select(ppt, statement, truth, repetition, fakeness_judg)</span></span>
+<span id="cb13-108"><a href="#cb13-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-109"><a href="#cb13-109" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$response, data_all$fakeness_judg)</span></span>
+<span id="cb13-110"><a href="#cb13-110" aria-hidden="true" tabindex="-1"></a><span class="in"># table(data_all$repetition, data_all$pos_exposure_phase)</span></span>
+<span id="cb13-111"><a href="#cb13-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-112"><a href="#cb13-112" aria-hidden="true" tabindex="-1"></a><span class="in">#write the data file if needed</span></span>
+<span id="cb13-113"><a href="#cb13-113" aria-hidden="true" tabindex="-1"></a><span class="in">#write.csv(data_all, &quot;data_all.csv&quot;)</span></span>
+<span id="cb13-114"><a href="#cb13-114" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-115"><a href="#cb13-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-116"><a href="#cb13-116" aria-hidden="true" tabindex="-1"></a><span class="fu">## Jeu de données long participant $*$ item </span></span>
+<span id="cb13-117"><a href="#cb13-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-118"><a href="#cb13-118" aria-hidden="true" tabindex="-1"></a>Voici un aperçu du jeu de données (pour $N =$ <span class="in">`r length(unique(data_all$ppt))`</span> participants et $k = 40$ affirmations = 8760 lignes dans le jeu de données) :</span>
+<span id="cb13-119"><a href="#cb13-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-120"><a href="#cb13-120" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df}</span></span>
+<span id="cb13-121"><a href="#cb13-121" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(DT)</span></span>
+<span id="cb13-122"><a href="#cb13-122" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_all)</span></span>
+<span id="cb13-123"><a href="#cb13-123" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-124"><a href="#cb13-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-125"><a href="#cb13-125" aria-hidden="true" tabindex="-1"></a>Ce jeu de données contient notamment les colonnes suivantes :</span>
+<span id="cb13-126"><a href="#cb13-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-127"><a href="#cb13-127" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[1]`</span> : identifiant de chaque participant</span>
+<span id="cb13-128"><a href="#cb13-128" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[3]`</span> : affirmation-cible</span>
+<span id="cb13-129"><a href="#cb13-129" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[4]`</span> : vérité de l&#39;affirmation</span>
+<span id="cb13-130"><a href="#cb13-130" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[9]`</span> : condition de répétition de l&#39;affirmation</span>
+<span id="cb13-131"><a href="#cb13-131" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r colnames(data_all)[10]`</span> : jugement de fakeness (0 : &#39;real news&#39; ; 1 : &#39;fake news&#39;) -- redondant avec <span class="in">`response`</span>, mais le codage binaire permet d&#39;utiliser cette variable dans les analyses).</span>
+<span id="cb13-132"><a href="#cb13-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-133"><a href="#cb13-133" aria-hidden="true" tabindex="-1"></a>Vous pouvez télécharger ce jeu de données via le bouton ci-dessous : </span>
+<span id="cb13-134"><a href="#cb13-134" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-135"><a href="#cb13-135" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_all.csv</span>
+<span id="cb13-136"><a href="#cb13-136" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_all id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
+<span id="cb13-137"><a href="#cb13-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-138"><a href="#cb13-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## Autres jeux de données pour analyses de type ANOVA, tests t...</span></span>
+<span id="cb13-139"><a href="#cb13-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-140"><a href="#cb13-140" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses1}</span></span>
+<span id="cb13-141"><a href="#cb13-141" aria-hidden="true" tabindex="-1"></a><span class="in">#load packages</span></span>
+<span id="cb13-142"><a href="#cb13-142" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;afex&#39;, &#39;lme4&#39;, &#39;lmerTest&#39;, &#39;effectsize&#39;, &#39;sjstats&#39;, &#39;sjPlot&#39;, &#39;BayesFactor&#39;, &#39;ggeffects&#39;, &#39;bfrr&#39;, &#39;papaja&#39;)</span></span>
+<span id="cb13-143"><a href="#cb13-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-144"><a href="#cb13-144" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$ppt = as.factor(data_all$ppt)</span></span>
+<span id="cb13-145"><a href="#cb13-145" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$response = as.factor(data_all$response)</span></span>
+<span id="cb13-146"><a href="#cb13-146" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$statement = as.factor(data_all$statement)</span></span>
+<span id="cb13-147"><a href="#cb13-147" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$truth = as.factor(data_all$truth)</span></span>
+<span id="cb13-148"><a href="#cb13-148" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$repetition = as.factor(data_all$repetition)</span></span>
+<span id="cb13-149"><a href="#cb13-149" aria-hidden="true" tabindex="-1"></a><span class="in">data_all$fakeness_judg = as.numeric(data_all$fakeness_judg)</span></span>
+<span id="cb13-150"><a href="#cb13-150" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-151"><a href="#cb13-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-152"><a href="#cb13-152" aria-hidden="true" tabindex="-1"></a>Créons un jeu de données avec les proportions de jugements &#39;fake news&#39; pour chaque participant dans chaque condition de répétition à travers les 40 affirmations :</span>
+<span id="cb13-153"><a href="#cb13-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-154"><a href="#cb13-154" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses2}</span></span>
+<span id="cb13-155"><a href="#cb13-155" aria-hidden="true" tabindex="-1"></a><span class="in">#first, compute the proportions of &quot;fake news&quot; judgments for each participant and separately for repeated and new statements</span></span>
+<span id="cb13-156"><a href="#cb13-156" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg = data_all %&gt;% </span></span>
+<span id="cb13-157"><a href="#cb13-157" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(repetition, ppt) %&gt;% </span></span>
+<span id="cb13-158"><a href="#cb13-158" aria-hidden="true" tabindex="-1"></a><span class="in">  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of &quot;yes fake news&quot; responses for each Repetition condition and for each participant</span></span>
+<span id="cb13-159"><a href="#cb13-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-160"><a href="#cb13-160" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg$repetition = as.factor(data_agg$repetition)</span></span>
+<span id="cb13-161"><a href="#cb13-161" aria-hidden="true" tabindex="-1"></a><span class="in">#data_agg$truth = as.factor(data_agg$truth)</span></span>
+<span id="cb13-162"><a href="#cb13-162" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg$ppt = as.factor(data_agg$ppt)</span></span>
+<span id="cb13-163"><a href="#cb13-163" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-164"><a href="#cb13-164" aria-hidden="true" tabindex="-1"></a>Nous avons maintenant un jeu de données avec 438 lignes (deux pour chaque participant ; une ligne correspond à la proportion de jugements &#39;fake news&#39; sur les affirmations répétées, et l&#39;autre à la proportion de jugements &#39;faje news&#39; sur les affirmations nouvelles) :</span>
+<span id="cb13-165"><a href="#cb13-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-166"><a href="#cb13-166" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df2}</span></span>
+<span id="cb13-167"><a href="#cb13-167" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg)</span></span>
+<span id="cb13-168"><a href="#cb13-168" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-169"><a href="#cb13-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-170"><a href="#cb13-170" aria-hidden="true" tabindex="-1"></a>Il est possible d&#39;obtenir ce jeu de données au format &#39;large&#39; pour l&#39;utiliser dans JASP par exemple :</span>
+<span id="cb13-171"><a href="#cb13-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-172"><a href="#cb13-172" aria-hidden="true" tabindex="-1"></a><span class="in">```{r wide}</span></span>
+<span id="cb13-173"><a href="#cb13-173" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_wide = data_agg %&gt;% pivot_wider(names_from = repetition</span></span>
+<span id="cb13-174"><a href="#cb13-174" aria-hidden="true" tabindex="-1"></a><span class="in">                                         ,values_from = &quot;mean_fakenews&quot;)</span></span>
+<span id="cb13-175"><a href="#cb13-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-176"><a href="#cb13-176" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_wide)</span></span>
+<span id="cb13-177"><a href="#cb13-177" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-178"><a href="#cb13-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-179"><a href="#cb13-179" aria-hidden="true" tabindex="-1"></a>Ce jeu de données simplifié peut être téléchargé ici (au format <span class="in">`.csv`</span>) :</span>
+<span id="cb13-180"><a href="#cb13-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-181"><a href="#cb13-181" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_agg_wide.csv</span>
+<span id="cb13-182"><a href="#cb13-182" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_agg_wide id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
+<span id="cb13-183"><a href="#cb13-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-184"><a href="#cb13-184" aria-hidden="true" tabindex="-1"></a>Au besoin, un jeu de données similaire peut être téléchargé en fonction de la vérité factuelle des affirmations, en plus de la répétition (ce qui donne quatre lignes par participant) :</span>
+<span id="cb13-185"><a href="#cb13-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-186"><a href="#cb13-186" aria-hidden="true" tabindex="-1"></a><span class="in">```{r analyses3}</span></span>
+<span id="cb13-187"><a href="#cb13-187" aria-hidden="true" tabindex="-1"></a><span class="in">#first, compute the proportions of &quot;fake news&quot; judgments for each participant and separately for repeated and new statements</span></span>
+<span id="cb13-188"><a href="#cb13-188" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v = data_all %&gt;% </span></span>
+<span id="cb13-189"><a href="#cb13-189" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(repetition, truth, ppt) %&gt;% </span></span>
+<span id="cb13-190"><a href="#cb13-190" aria-hidden="true" tabindex="-1"></a><span class="in">  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of &quot;yes fake news&quot; responses for each Repetition*Factual truth condition and for each participant</span></span>
+<span id="cb13-191"><a href="#cb13-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-192"><a href="#cb13-192" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$repetition = as.factor(data_agg_v$repetition)</span></span>
+<span id="cb13-193"><a href="#cb13-193" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$truth = as.factor(data_agg_v$truth)</span></span>
+<span id="cb13-194"><a href="#cb13-194" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v$ppt = as.factor(data_agg_v$ppt)</span></span>
+<span id="cb13-195"><a href="#cb13-195" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-196"><a href="#cb13-196" aria-hidden="true" tabindex="-1"></a><span class="in">```{r illustrate_df3}</span></span>
+<span id="cb13-197"><a href="#cb13-197" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_v)</span></span>
+<span id="cb13-198"><a href="#cb13-198" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-199"><a href="#cb13-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-200"><a href="#cb13-200" aria-hidden="true" tabindex="-1"></a>Voici ce même jeu de données en format large :</span>
+<span id="cb13-201"><a href="#cb13-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-202"><a href="#cb13-202" aria-hidden="true" tabindex="-1"></a><span class="in">```{r wide2}</span></span>
+<span id="cb13-203"><a href="#cb13-203" aria-hidden="true" tabindex="-1"></a><span class="in">data_agg_v_wide = data_agg_v %&gt;% pivot_wider(names_from = c(repetition, truth)</span></span>
+<span id="cb13-204"><a href="#cb13-204" aria-hidden="true" tabindex="-1"></a><span class="in">                                         ,values_from = &quot;mean_fakenews&quot;)</span></span>
+<span id="cb13-205"><a href="#cb13-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-206"><a href="#cb13-206" aria-hidden="true" tabindex="-1"></a><span class="in">datatable(data_agg_v_wide)</span></span>
+<span id="cb13-207"><a href="#cb13-207" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-208"><a href="#cb13-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-209"><a href="#cb13-209" aria-hidden="true" tabindex="-1"></a>Vous pouvez le télécharger ici :</span>
+<span id="cb13-210"><a href="#cb13-210" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-211"><a href="#cb13-211" aria-hidden="true" tabindex="-1"></a>{{&lt; downloadthis data_agg_v_wide.csv</span>
+<span id="cb13-212"><a href="#cb13-212" aria-hidden="true" tabindex="-1"></a>label=&quot;Télécharger les données&quot; dname=data_agg_v_wide id=dl-btn icon=&quot;database-fill-down&quot; type=&quot;info&quot; &gt;}}</span>
+<span id="cb13-213"><a href="#cb13-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-214"><a href="#cb13-214" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quelques analyses statistiques et une figure</span></span>
+<span id="cb13-215"><a href="#cb13-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-216"><a href="#cb13-216" aria-hidden="true" tabindex="-1"></a>Ces jeux de données permettent des analyses telles que des tests $t$, ou ANOVA par exemple. Je présente des éléments de cette stratégie d&#39;analyse ci-dessous. Les analyses préenregistrées (autres analyses fréquentistes, dont modèle mixte ; analyses bayésiennes) ne sont pas présentées. </span>
+<span id="cb13-217"><a href="#cb13-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-218"><a href="#cb13-218" aria-hidden="true" tabindex="-1"></a><span class="in">```{r anova}</span></span>
+<span id="cb13-219"><a href="#cb13-219" aria-hidden="true" tabindex="-1"></a><span class="in">mod1 = aov_ez(id = &quot;ppt&quot;</span></span>
+<span id="cb13-220"><a href="#cb13-220" aria-hidden="true" tabindex="-1"></a><span class="in">             ,dv = &quot;mean_fakenews&quot;</span></span>
+<span id="cb13-221"><a href="#cb13-221" aria-hidden="true" tabindex="-1"></a><span class="in">             ,within = c(&quot;repetition&quot;, &quot;truth&quot;)</span></span>
+<span id="cb13-222"><a href="#cb13-222" aria-hidden="true" tabindex="-1"></a><span class="in">             ,data = data_agg_v)</span></span>
+<span id="cb13-223"><a href="#cb13-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-224"><a href="#cb13-224" aria-hidden="true" tabindex="-1"></a><span class="in">report_mod1 = apa_print(mod1)</span></span>
+<span id="cb13-225"><a href="#cb13-225" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb13-226"><a href="#cb13-226" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-227"><a href="#cb13-227" aria-hidden="true" tabindex="-1"></a>Nous avons réalisé une ANOVA 2 (Répétition) $*$ 2 (Vérité factuelle) sur les proportions de jugements &quot;fake news&quot;. L&#39;effet principal de la répétition est significatif, `r report_mod1$full_result$repetition`. De façon intéressante, la proportion de jugements &#39;fake news&#39; était **inférieure** pour les affirmations répétées ($M =$ <span class="in">`r round(mean(data_agg$mean_fakenews[data_agg$repetition==&quot;repeated&quot;]), digits=2)`</span> ; $SD =$ <span class="in">`r round(sd(data_agg$mean_fakenews[data_agg$repetition==&quot;repeated&quot;]), digits=2)`</span>) par rapport à nouvelles ($M =$ <span class="in">`r round(mean(data_agg$mean_fakenews[data_agg$repetition==&quot;new&quot;]), digits=2)`</span> ; $SD =$ <span class="in">`r round(sd(data_agg$mean_fakenews[data_agg$repetition==&quot;new&quot;]), digits=2)`</span>). L&#39;effet principal de la vérité factuelle n&#39;est pas significatif, <span class="in">`r report_mod1$full_result$truth`</span>. L&#39;effet d&#39;interaction entre la répétition et la vérité factuelle n&#39;est pas significatif, <span class="in">`r report_mod1$full_result$repetition_truth`</span>. La figure ci-dessous présente l&#39;effet de la répétition sur les proportions de jugements &#39;fake news&#39;.</span>
+<span id="cb13-228"><a href="#cb13-228" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-229"><a href="#cb13-229" aria-hidden="true" tabindex="-1"></a><span class="in">```{r plot, fig.cap=&quot;Proportion de jugements &#39;fake news&#39; en fonction de la répétition&quot;}</span></span>
+<span id="cb13-230"><a href="#cb13-230" aria-hidden="true" tabindex="-1"></a><span class="in">p_load(&#39;ggstatsplot&#39;) </span></span>
+<span id="cb13-231"><a href="#cb13-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-232"><a href="#cb13-232" aria-hidden="true" tabindex="-1"></a><span class="in">ggwithinstats(data = data_agg</span></span>
+<span id="cb13-233"><a href="#cb13-233" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,subject.id = ppt</span></span>
+<span id="cb13-234"><a href="#cb13-234" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,x = repetition</span></span>
+<span id="cb13-235"><a href="#cb13-235" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,y = mean_fakenews</span></span>
+<span id="cb13-236"><a href="#cb13-236" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,results.subtitle = TRUE</span></span>
+<span id="cb13-237"><a href="#cb13-237" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,ggtheme = theme_bw()</span></span>
+<span id="cb13-238"><a href="#cb13-238" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,bf.message = FALSE</span></span>
+<span id="cb13-239"><a href="#cb13-239" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,centrality.type = &quot;mean&quot;</span></span>
+<span id="cb13-240"><a href="#cb13-240" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,centrality.path=FALSE</span></span>
+<span id="cb13-241"><a href="#cb13-241" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,xlab = &quot;Repetition&quot;</span></span>
+<span id="cb13-242"><a href="#cb13-242" aria-hidden="true" tabindex="-1"></a><span class="in">                      ,ylab = &quot;Proportion of &#39;fake news&#39; judgments&quot;</span></span>
+<span id="cb13-243"><a href="#cb13-243" aria-hidden="true" tabindex="-1"></a><span class="in">)</span></span>
+<span id="cb13-244"><a href="#cb13-244" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

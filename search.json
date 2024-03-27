@@ -2,9 +2,9 @@
   {
     "objectID": "recherche.html",
     "href": "recherche.html",
-    "title": "À propos",
+    "title": "Recherche",
     "section": "",
-    "text": "Pour toute requête concernant les contenus de ce site, merci de me contacter contacter (lien cliquable)."
+    "text": "Test page recherche."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "TITRE",
     "section": "",
-    "text": "Ce site présente différentes informations :\n\nDes pages Enseignements, qui présente des contenus de cours d’UE XXXXX\nUne page Recherches, qui présente mes thématiques de recherche.\n\nVous trouverez ci-dessous les entrées les plus récentes :\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\nJérémy Béna\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\nA; C; D\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\nA; B\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Ce site présente différentes informations :\n\nDes pages Enseignements, qui présente des contenus de cours d’UE XXXXX\nUne page Recherches, qui présente mes thématiques de recherche.\n\nVous trouverez ci-dessous les entrées les plus récentes :\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\nA; C; D\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\nA; B\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coursA.html",
     "href": "coursA.html",
-    "title": "À propos",
+    "title": "Enseignement A",
     "section": "",
-    "text": "Pour toute requête concernant les contenus de ce site, merci de me contacter contacter (lien cliquable)."
+    "text": "Test Enseignement A"
   },
   {
     "objectID": "about.html",
@@ -37,9 +37,9 @@
   {
     "objectID": "coursB.html",
     "href": "coursB.html",
-    "title": "À propos",
+    "title": "Enseignement B",
     "section": "",
-    "text": "Pour toute requête concernant les contenus de ce site, merci de me contacter contacter (lien cliquable)."
+    "text": "Test Enseignement B"
   },
   {
     "objectID": "posts/analyses_terL3/index.html",
