@@ -1,10 +1,30 @@
 [
   {
+    "listing": "/recherche.html",
+    "items": [
+      "/content_research/autre_test/index.html",
+      "/content_research/test/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
-      "/posts/analyses_terL3/index.html",
+      "/content_research/test/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/content_teaching/analyses_terL3/index.html",
+      "/posts/analyses_terL3/index.html",
+      "/content_research/autre_test/index.html",
+      "/posts/welcome/index.html",
+      "/coursB.html",
+      "/coursA.html",
+      "/recherche.html",
+      "/about.html"
+    ]
+  },
+  {
+    "listing": "/coursA.html",
+    "items": [
+      "/content_teaching/analyses_terL3/index.html"
     ]
   }
 ]

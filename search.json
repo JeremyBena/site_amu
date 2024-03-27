@@ -2,9 +2,9 @@
   {
     "objectID": "recherche.html",
     "href": "recherche.html",
-    "title": "Recherche",
+    "title": "Page Recherches",
     "section": "",
-    "text": "Test page recherche."
+    "text": "Test page recherche. Thématiques, projets en cours, publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\nA; B\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\nA; C; D\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -16,16 +16,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "TITRE",
+    "title": "Page principale",
     "section": "",
-    "text": "Ce site présente différentes informations :\n\nDes pages Enseignements, qui présente des contenus de cours d’UE XXXXX\nUne page Recherches, qui présente mes thématiques de recherche.\n\nVous trouverez ci-dessous les entrées les plus récentes :\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\nA; C; D\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\nA; B\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Ce site présente différentes informations :\n\nUne page Enseignements, qui présente des contenus de cours pour les UE XXXXX.\nUne page Recherches, qui présente mes thématiques de recherche.\n\nBLABLA.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nCECI EST UN AUTRE TEST\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nENTREE 1 TEST\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEnseignement B\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPage Enseignements\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPage Recherches\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÀ propos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coursA.html",
     "href": "coursA.html",
-    "title": "Enseignement A",
+    "title": "Page Enseignements",
     "section": "",
-    "text": "Test Enseignement A"
+    "text": "Test page enseignements. Structurer par UE.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDonnées et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU\n\n\n\n\n\n\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content_research/test/index.html",
+    "href": "content_research/test/index.html",
+    "title": "CECI EST UN AUTRE TEST",
+    "section": "",
+    "text": "ENCORE UN TEST."
   },
   {
     "objectID": "about.html",
@@ -33,6 +40,62 @@
     "title": "À propos",
     "section": "",
     "text": "Pour toute requête concernant les contenus de ce site, merci de me contacter (lien cliquable)."
+  },
+  {
+    "objectID": "content_research/autre_test/index.html",
+    "href": "content_research/autre_test/index.html",
+    "title": "ENTREE 1 TEST",
+    "section": "",
+    "text": "CECI EST UN TEST"
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html",
+    "href": "content_teaching/analyses_terL3/index.html",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "",
+    "text": "Ce document présente les analyses et les résultats de l’étude non-publiée sur le fake news by repetition effect dont j’ai partagé le préenregistrement et une présentation plus tôt ce semestre pour le TER L3 HPS6U26.\nLes données participants \\(*\\) items et les données agrégées à chaque niveau participant \\(*\\) condition pourront être téléchargées à partir de ce document. Vous pouvez les utiliser pour réaliser des analyses avec le logiciel JASP par exemple.\nDernier point : le code R qui sert à réaliser les opérations sur les données, à réaliser les tests statistiques, et à générer la figure est par défaut caché (et utilisé pour générer automatiquement les éléments de résultats rapportés). Pour le consulter (le code est en grande partie annoté), vous pouvez cliquer sur Cliquer ici pour voir le code R quand cette expression apparaît plus bas)."
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#ce-document",
+    "href": "content_teaching/analyses_terL3/index.html#ce-document",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "",
+    "text": "Ce document présente les analyses et les résultats de l’étude non-publiée sur le fake news by repetition effect dont j’ai partagé le préenregistrement et une présentation plus tôt ce semestre pour le TER L3 HPS6U26.\nLes données participants \\(*\\) items et les données agrégées à chaque niveau participant \\(*\\) condition pourront être téléchargées à partir de ce document. Vous pouvez les utiliser pour réaliser des analyses avec le logiciel JASP par exemple.\nDernier point : le code R qui sert à réaliser les opérations sur les données, à réaliser les tests statistiques, et à générer la figure est par défaut caché (et utilisé pour générer automatiquement les éléments de résultats rapportés). Pour le consulter (le code est en grande partie annoté), vous pouvez cliquer sur Cliquer ici pour voir le code R quand cette expression apparaît plus bas)."
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#participants",
+    "href": "content_teaching/analyses_terL3/index.html#participants",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "Participants",
+    "text": "Participants\n\n\nCliquer ici pour voir le code R\n#Load (or install and load) packages\nrequire(pacman)\np_load('tidyverse', 'dplyr', 'psych')\n\n# read the data file\ndat = read.csv(\"data.csv\")\n\n# table(dat$consent)\n# table(dat$serious)\n# table(dat$pay_attention)\n\n#Socio-demographic information\nsociodemo = read.csv(\"sociodemographic_information.csv\")\n\nsociodemo = sociodemo %&gt;% filter(Status==\"APPROVED\")\ntab_sex = as.matrix(table(sociodemo$Sex)/219)\n#describe(sociodemo$Age)\n\n\nSur les 220 participants qui ont participé à l’étude (sur la plateforme Prolific, étude en ligne ; les participants étaient rémunérés), nous avons collecté les données complètes de 219 participants (50\\(\\%\\) femmes; \\(M_{âge} =\\) 38.77 ; \\(SD_{âge} =\\) 15.21). Aucun participant n’était à exclure sur base des critères d’exclusion préenregistrés (déclaration de réponses au hasard ; déclaration de ne pas avoir fait attention aux consignes ou aux affirmations)."
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#constitution-du-jeu-de-données-pour-les-analyses",
+    "href": "content_teaching/analyses_terL3/index.html#constitution-du-jeu-de-données-pour-les-analyses",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "Constitution du jeu de données pour les analyses",
+    "text": "Constitution du jeu de données pour les analyses\nVoir le code R pour la constitution du jeu de données pour les analyses.\n\n\nCliquer ici pour voir le code R\n#Retrieve the statements ppts saw in the exposure phase and keep only the variables of interest\ndat_exposure = dat %&gt;% \n  filter(sender == \"exposure_trial\") %&gt;%\n  select(url.srid, statements, Truth, encoding_phase)\n\n##Check that the exposure phase worked as intended in the experiment: 20 different statements, half true and half false\n#check whether all repeated statements appeared only once for each participant - should be the case\ncheck_exp = table(dat_exposure$statements, dat_exposure$url.srid)\n# table(check_exp&gt;1) #should only be \"false\" - it is \"false\"\n\n#In the exposure phase, do we have as many true and false participants at the aggregated level?\n# table(dat_exposure$Truth) #yes\n\n#and for each participant?\n# table(dat_exposure$Truth, dat_exposure$url.srid) #yes, we find 10 true and 10 false statements for each participant\n\n#say that the present statements are all repeated (because they were seen the exposure phase)\ndat_exposure$repetition = \"repeated\"\n\n#Retrieve the statements and responses from the test phase, and keep only the variables of interest\ndat_judgment = dat %&gt;% \n  filter(sender == \"judgment_trial\") %&gt;%\n  select(url.srid, response, statements_judgment, Truth_judgment, judgment_phase, serious, pay_attention)\n\n#rename the columns to have \"statements\" named in the same way in data_exposure and data_test\ncolnames(dat_judgment) = c(\"url.srid\", \"response\", \"statements\", \"Truth\", \"judgment_phase\", \"check_seriousness\", \"check_attention\")\n\n#we make one data set with data_exposure and data_test, merging by ID and statements\ndata_all = full_join(dat_judgment, dat_exposure\n                     , by = c(\"url.srid\" = \"url.srid\", \"statements\"=\"statements\", \"Truth\" = \"Truth\"))\n\n#statements that do not appear in the first session are new\ndata_all$repetition = replace_na(data_all$repetition, \"new\")\n\n#check if same number of true and false statements in each Repetition condition\n# table(data_all$Truth, data_all$repetition) #yes, the program worked as intended\n\ndata_all$url.srid = as.factor(data_all$url.srid)\ndata_all$response = as.factor(data_all$response)\ndata_all$statements = as.factor(data_all$statements)\ndata_all$Truth = as.factor(data_all$Truth)\ndata_all$repetition = as.factor(data_all$repetition)\n\n#recode \"fake news\" judgments: if \"resp_fake_news\" : 1; else: 0\ndata_all$fakeness_judg = ifelse(data_all$response == \"resp_fake_news\", 1,0)\n\n#save the final data set, but first rename the columns\ncolnames(data_all) = c(\"ppt\", \"response\", \"statement\", \"truth\", \"pos_judgment_phase\", \"check_seriousness\", \"check_attention\", \"pos_exposure_phase\", \"repetition\", \"fakeness_judg\")\n\n# data_all = data_all %&gt;%\n#   select(ppt, statement, truth, repetition, fakeness_judg)\n\n# table(data_all$response, data_all$fakeness_judg)\n# table(data_all$repetition, data_all$pos_exposure_phase)\n\n#write the data file if needed\n#write.csv(data_all, \"data_all.csv\")"
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#jeu-de-données-long-participant-item",
+    "href": "content_teaching/analyses_terL3/index.html#jeu-de-données-long-participant-item",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "Jeu de données long participant \\(*\\) item",
+    "text": "Jeu de données long participant \\(*\\) item\nVoici un aperçu du jeu de données (pour \\(N =\\) 219 participants et \\(k = 40\\) affirmations = 8760 lignes dans le jeu de données) :\n\n\nCliquer ici pour voir le code R\np_load(DT)\ndatatable(data_all)\n\n\n\n\n\n\nCe jeu de données contient notamment les colonnes suivantes :\n\nppt : identifiant de chaque participant\nstatement : affirmation-cible\ntruth : vérité de l’affirmation\nrepetition : condition de répétition de l’affirmation\nfakeness_judg : jugement de fakeness (0 : ‘real news’ ; 1 : ‘fake news’) – redondant avec response, mais le codage binaire permet d’utiliser cette variable dans les analyses).\n\nVous pouvez télécharger ce jeu de données via le bouton ci-dessous :\n{{&lt; downloadthis data_all.csv \"Télécharger les données\" data_all dl-btn \"database-fill-down\" \"info\" &gt;}}"
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#autres-jeux-de-données-pour-analyses-de-type-anova-tests-t",
+    "href": "content_teaching/analyses_terL3/index.html#autres-jeux-de-données-pour-analyses-de-type-anova-tests-t",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "Autres jeux de données pour analyses de type ANOVA, tests t…",
+    "text": "Autres jeux de données pour analyses de type ANOVA, tests t…\n\n\nCliquer ici pour voir le code R\n#load packages\np_load('afex', 'lme4', 'lmerTest', 'effectsize', 'sjstats', 'sjPlot', 'BayesFactor', 'ggeffects', 'bfrr', 'papaja')\n\ndata_all$ppt = as.factor(data_all$ppt)\ndata_all$response = as.factor(data_all$response)\ndata_all$statement = as.factor(data_all$statement)\ndata_all$truth = as.factor(data_all$truth)\ndata_all$repetition = as.factor(data_all$repetition)\ndata_all$fakeness_judg = as.numeric(data_all$fakeness_judg)\n\n\nCréons un jeu de données avec les proportions de jugements ‘fake news’ pour chaque participant dans chaque condition de répétition à travers les 40 affirmations :\n\n\nCliquer ici pour voir le code R\n#first, compute the proportions of \"fake news\" judgments for each participant and separately for repeated and new statements\ndata_agg = data_all %&gt;% \n  group_by(repetition, ppt) %&gt;% \n  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of \"yes fake news\" responses for each Repetition condition and for each participant\n\ndata_agg$repetition = as.factor(data_agg$repetition)\n#data_agg$truth = as.factor(data_agg$truth)\ndata_agg$ppt = as.factor(data_agg$ppt)\n\n\nNous avons maintenant un jeu de données avec 438 lignes (deux pour chaque participant ; une ligne correspond à la proportion de jugements ‘fake news’ sur les affirmations répétées, et l’autre à la proportion de jugements ‘faje news’ sur les affirmations nouvelles) :\n\n\nCliquer ici pour voir le code R\ndatatable(data_agg)\n\n\n\n\n\n\nIl est possible d’obtenir ce jeu de données au format ‘large’ pour l’utiliser dans JASP par exemple :\n\n\nCliquer ici pour voir le code R\ndata_agg_wide = data_agg %&gt;% pivot_wider(names_from = repetition\n                                         ,values_from = \"mean_fakenews\")\n\ndatatable(data_agg_wide)\n\n\n\n\n\n\nCe jeu de données simplifié peut être téléchargé ici (au format .csv) :\n{{&lt; downloadthis data_agg_wide.csv \"Télécharger les données\" data_agg_wide dl-btn \"database-fill-down\" \"info\" &gt;}}\nAu besoin, un jeu de données similaire peut être téléchargé en fonction de la vérité factuelle des affirmations, en plus de la répétition (ce qui donne quatre lignes par participant) :\n\n\nCliquer ici pour voir le code R\n#first, compute the proportions of \"fake news\" judgments for each participant and separately for repeated and new statements\ndata_agg_v = data_all %&gt;% \n  group_by(repetition, truth, ppt) %&gt;% \n  summarise(mean_fakenews = mean(fakeness_judg)) #compute mean proportions of \"yes fake news\" responses for each Repetition*Factual truth condition and for each participant\n\ndata_agg_v$repetition = as.factor(data_agg_v$repetition)\ndata_agg_v$truth = as.factor(data_agg_v$truth)\ndata_agg_v$ppt = as.factor(data_agg_v$ppt)\n\n\n\n\nCliquer ici pour voir le code R\ndatatable(data_agg_v)\n\n\n\n\n\n\nVoici ce même jeu de données en format large :\n\n\nCliquer ici pour voir le code R\ndata_agg_v_wide = data_agg_v %&gt;% pivot_wider(names_from = c(repetition, truth)\n                                         ,values_from = \"mean_fakenews\")\n\ndatatable(data_agg_v_wide)\n\n\n\n\n\n\nVous pouvez le télécharger ici :\n{{&lt; downloadthis data_agg_v_wide.csv \"Télécharger les données\" data_agg_v_wide dl-btn \"database-fill-down\" \"info\" &gt;}}"
+  },
+  {
+    "objectID": "content_teaching/analyses_terL3/index.html#quelques-analyses-statistiques-et-une-figure",
+    "href": "content_teaching/analyses_terL3/index.html#quelques-analyses-statistiques-et-une-figure",
+    "title": "Données et quelques analyses : Does repetition increase perceived fakeness in a judgment context referring to social media? – pour TER L3, HPS6U26, AMU",
+    "section": "Quelques analyses statistiques et une figure",
+    "text": "Quelques analyses statistiques et une figure\nCes jeux de données permettent des analyses telles que des tests \\(t\\), ou ANOVA par exemple. Je présente des éléments de cette stratégie d’analyse ci-dessous. Les analyses préenregistrées (autres analyses fréquentistes, dont modèle mixte ; analyses bayésiennes) ne sont pas présentées.\n\n\nCliquer ici pour voir le code R\nmod1 = aov_ez(id = \"ppt\"\n             ,dv = \"mean_fakenews\"\n             ,within = c(\"repetition\", \"truth\")\n             ,data = data_agg_v)\n\nreport_mod1 = apa_print(mod1)\n\n\nNous avons réalisé une ANOVA 2 (Répétition) \\(*\\) 2 (Vérité factuelle) sur les proportions de jugements “fake news”. L’effet principal de la répétition est significatif, \\(F(1, 218) = 5.76\\), \\(p = .017\\), \\(\\hat{\\eta}^2_G = .007\\), 90% CI \\([.000, .036]\\). De façon intéressante, la proportion de jugements ‘fake news’ était inférieure pour les affirmations répétées (\\(M =\\) 0.41 ; \\(SD =\\) 0.15) par rapport à nouvelles (\\(M =\\) 0.44 ; \\(SD =\\) 0.15). L’effet principal de la vérité factuelle n’est pas significatif, \\(F(1, 218) = 1.50\\), \\(p = .222\\), \\(\\hat{\\eta}^2_G = .001\\), 90% CI \\([.000, .020]\\). L’effet d’interaction entre la répétition et la vérité factuelle n’est pas significatif, \\(F(1, 218) = 0.79\\), \\(p = .374\\), \\(\\hat{\\eta}^2_G = .001\\), 90% CI \\([.000, .016]\\). La figure ci-dessous présente l’effet de la répétition sur les proportions de jugements ‘fake news’.\n\n\nCliquer ici pour voir le code R\np_load('ggstatsplot') \n\nggwithinstats(data = data_agg\n                      ,subject.id = ppt\n                      ,x = repetition\n                      ,y = mean_fakenews\n                      ,results.subtitle = TRUE\n                      ,ggtheme = theme_bw()\n                      ,bf.message = FALSE\n                      ,centrality.type = \"mean\"\n                      ,centrality.path=FALSE\n                      ,xlab = \"Repetition\"\n                      ,ylab = \"Proportion of 'fake news' judgments\"\n)\n\n\n\n\n\nProportion de jugements ‘fake news’ en fonction de la répétition"
   },
   {
     "objectID": "coursB.html",
